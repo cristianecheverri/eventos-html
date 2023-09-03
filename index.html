@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Eventos HTML con JavaScript</title>
+    <!-- Incluye el CSS de Tailwind CSS (puedes obtenerlo de un CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+
+  <h1 class="text-3xl font-bold mb-4">Ejemplo Eventos HTML con JavaScript</h1>
+
+  <!-- Evento click -->
+  <button id="miBoton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    Haz clic
+  </button>
+
+  <!-- Evento submit -->
+  <form id="miFormulario" class="mt-4">
+    <input type="text" placeholder="Nombre" class="shadow appearance-none border rounded w-full py-2 px-3 mb-4">
+    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Enviar
+    </button>
+  </form>
+
+  <!-- Evento change -->
+  <select id="miSelect" class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 rounded shadow mt-4">
+    <option value="opcion1">Opción 1</option>
+    <option value="opcion2">Opción 2</option>
+  </select>
+
+  <!-- Evento input -->
+  <input id="miInput" type="text" placeholder="Escribe algo" class="shadow appearance-none border rounded w-full py-2 px-3 mb-4 mt-4">
+
+  <!-- Evento mouseover -->
+  <div id="miDiv" class="bg-gray-200 p-4 mt-4">
+    Pasa el ratón sobre mí
+  </div>
+
+  <!-- Evento mouseout -->
+  <div id="miOtroDiv" class="bg-gray-300 p-4 mt-4">
+    Saca el ratón de encima
+  </div>
+
+  <!-- Evento keydown -->
+  <input id="miInputKeydown" type="text" class="shadow appearance-none border rounded w-full py-2 px-3 mb-4 mt-4">
+
+  <!-- Evento keyup -->
+  <input id="miInputKeyup" type="text" class="shadow appearance-none border rounded w-full py-2 px-3 mb-4 mt-4">
+
+  <!-- Evento focus -->
+  <input id="miInputFocus" type="text" placeholder="Obtengo el foco" class="shadow appearance-none border rounded w-full py-2 px-3 mb-4 mt-4">
+
+  <!-- Evento blur -->
+  <input id="miInputBlur" type="text" placeholder="Pierdo el foco" class="shadow appearance-none border rounded w-full py-2 px-3 mb-4 mt-4 border-blue-500">
+
+  <!-- Evento load -->
+  <img id="miImagen" src="https://via.placeholder.com/150" alt="Imagen de ejemplo" class="mt-4">
+
+  <script src="src/js/index.js"></script>
+</body>
+</html>
